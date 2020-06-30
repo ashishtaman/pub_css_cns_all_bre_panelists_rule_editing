@@ -43,14 +43,20 @@
       <isNegated>false</isNegated>
       <conditions>
         <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>100</width>
           <header>Nikepermission : panelist_panelist_attr_61 !=</header>
-          <constraintValueType>3</constraintValueType>
-          <factField>panelist_panelist_attr_61</factField>
+          <constraintValueType>1</constraintValueType>
+          <factField>panelist_panelist_attr_32</factField>
           <fieldType>Long</fieldType>
-          <operator>!=</operator>
+          <operator>not in</operator>
           <parameters/>
+          <binding></binding>
         </condition-column52>
       </conditions>
       <window>
@@ -147,7 +153,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1303004755</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
