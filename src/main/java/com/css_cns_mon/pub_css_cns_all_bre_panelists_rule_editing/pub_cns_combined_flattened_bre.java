@@ -15,7 +15,7 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	
 	public pub_cns_combined_flattened_bre() {
 	}
-private java.util.Date data_mail_date = new Date();
+		private java.util.Date data_mail_date = new Date();
 		private String string_data_multi_choice_codes_26;
 		private String string_data_multi_choice_codes_25;
 		private String string_data_multi_choice_codes_24;
@@ -373,7 +373,7 @@ private java.util.Date data_mail_date = new Date();
 		private java.util.List<java.math.BigDecimal> data_multi_choice_codes_112 = new ArrayList<java.math.BigDecimal>();
 		private java.util.List<java.math.BigDecimal> data_multi_choice_codes_111 = new ArrayList<java.math.BigDecimal>();
 		private java.util.List<java.math.BigDecimal> data_multi_choice_codes_110 = new ArrayList<java.math.BigDecimal>();
-		private java.util.List<String> data_multi_choice_codes_11  = new ArrayList<java.lang.String>();
+		private java.util.List<String> data_multi_choice_codes_11  = new ArrayList<java.lang.String>();		
 		private java.util.List<java.math.BigDecimal> data_multi_choice_codes_109 = new ArrayList<java.math.BigDecimal>();
 		private java.util.List<java.math.BigDecimal> data_multi_choice_codes_108 = new ArrayList<java.math.BigDecimal>();
 		private java.util.List<java.math.BigDecimal> data_multi_choice_codes_107 = new ArrayList<java.math.BigDecimal>();
@@ -859,12 +859,48 @@ private java.util.Date data_mail_date = new Date();
 		private java.math.BigDecimal panelist_hispanic;
 		private java.math.BigDecimal panelist_head_of_household_age;
 		private java.math.BigDecimal panelist_group_number;
-		private java.math.BigDecimal panelist_grid_02_count;
-		private java.math.BigDecimal panelist_grid_02__attr_02;
-		private java.math.BigDecimal panelist_grid_02__attr_01;
 		private java.math.BigDecimal panelist_grid_01_count;
-		private java.math.BigDecimal panelist_grid_01__attr_02;
-		private java.math.BigDecimal panelist_grid_01__attr_01;
+		private java.math.BigDecimal panelist_flat_grid_01_00__attr_01;
+		private java.math.BigDecimal panelist_flat_grid_01_00__attr_02;
+		private java.math.BigDecimal panelist_flat_grid_01_01__attr_01;
+		private java.math.BigDecimal panelist_flat_grid_01_01__attr_02;
+		private java.math.BigDecimal panelist_flat_grid_01_02__attr_01;
+		private java.math.BigDecimal panelist_flat_grid_01_02__attr_02;
+		private java.math.BigDecimal panelist_flat_grid_01_03__attr_01;
+		private java.math.BigDecimal panelist_flat_grid_01_03__attr_02;
+		private java.math.BigDecimal panelist_flat_grid_01_04__attr_01;
+		private java.math.BigDecimal panelist_flat_grid_01_04__attr_02;
+		private java.math.BigDecimal panelist_flat_grid_01_05__attr_01;
+		private java.math.BigDecimal panelist_flat_grid_01_05__attr_02;
+		private java.math.BigDecimal panelist_flat_grid_01_06__attr_01;
+		private java.math.BigDecimal panelist_flat_grid_01_06__attr_02;
+		private java.math.BigDecimal panelist_flat_grid_01_07__attr_01;
+		private java.math.BigDecimal panelist_flat_grid_01_07__attr_02;
+		private java.math.BigDecimal panelist_flat_grid_01_08__attr_01;
+		private java.math.BigDecimal panelist_flat_grid_01_08__attr_02;
+		private java.math.BigDecimal panelist_flat_grid_01_09__attr_01;
+		private java.math.BigDecimal panelist_flat_grid_01_09__attr_02;
+		private java.math.BigDecimal panelist_grid_02_count;
+		private java.math.BigDecimal panelist_flat_grid_02_00__attr_01;
+		private java.math.BigDecimal panelist_flat_grid_02_00__attr_02;
+		private java.math.BigDecimal panelist_flat_grid_02_01__attr_01;
+		private java.math.BigDecimal panelist_flat_grid_02_01__attr_02;
+		private java.math.BigDecimal panelist_flat_grid_02_02__attr_01;
+		private java.math.BigDecimal panelist_flat_grid_02_02__attr_02;
+		private java.math.BigDecimal panelist_flat_grid_02_03__attr_01;
+		private java.math.BigDecimal panelist_flat_grid_02_03__attr_02;
+		private java.math.BigDecimal panelist_flat_grid_02_04__attr_01;
+		private java.math.BigDecimal panelist_flat_grid_02_04__attr_02;
+		private java.math.BigDecimal panelist_flat_grid_02_05__attr_01;
+		private java.math.BigDecimal panelist_flat_grid_02_05__attr_02;
+		private java.math.BigDecimal panelist_flat_grid_02_06__attr_01;
+		private java.math.BigDecimal panelist_flat_grid_02_06__attr_02;
+		private java.math.BigDecimal panelist_flat_grid_02_07__attr_01;
+		private java.math.BigDecimal panelist_flat_grid_02_07__attr_02;
+		private java.math.BigDecimal panelist_flat_grid_02_08__attr_01;
+		private java.math.BigDecimal panelist_flat_grid_02_08__attr_02;
+		private java.math.BigDecimal panelist_flat_grid_02_09__attr_01;
+		private java.math.BigDecimal panelist_flat_grid_02_09__attr_02;
 		private java.math.BigDecimal panelist_geo_dim__level_9;
 		private java.math.BigDecimal panelist_geo_dim__level_8;
 		private java.math.BigDecimal panelist_geo_dim__level_7;
@@ -1476,11 +1512,47 @@ private java.util.Date data_mail_date = new Date();
 		private java.math.BigDecimal data_measures__sales;
 		private java.math.BigDecimal data_load_id;
 		private java.math.BigDecimal data_grid_02_count;
-		private java.math.BigDecimal data_grid_02__attr_02;
-		private java.math.BigDecimal data_grid_02__attr_01;
+	private java.math.BigDecimal data_flat_grid_01_00__attr_01;
+	private java.math.BigDecimal data_flat_grid_01_00__attr_02;
+	private java.math.BigDecimal data_flat_grid_01_01__attr_01;
+	private java.math.BigDecimal data_flat_grid_01_01__attr_02;
+	private java.math.BigDecimal data_flat_grid_01_02__attr_01;
+	private java.math.BigDecimal data_flat_grid_01_02__attr_02;
+	private java.math.BigDecimal data_flat_grid_01_03__attr_01;
+	private java.math.BigDecimal data_flat_grid_01_03__attr_02;
+	private java.math.BigDecimal data_flat_grid_01_04__attr_01;
+	private java.math.BigDecimal data_flat_grid_01_04__attr_02;
+	private java.math.BigDecimal data_flat_grid_01_05__attr_01;
+	private java.math.BigDecimal data_flat_grid_01_05__attr_02;
+	private java.math.BigDecimal data_flat_grid_01_06__attr_01;
+	private java.math.BigDecimal data_flat_grid_01_06__attr_02;
+	private java.math.BigDecimal data_flat_grid_01_07__attr_01;
+	private java.math.BigDecimal data_flat_grid_01_07__attr_02;
+	private java.math.BigDecimal data_flat_grid_01_08__attr_01;
+	private java.math.BigDecimal data_flat_grid_01_08__attr_02;
+	private java.math.BigDecimal data_flat_grid_01_09__attr_01;
+	private java.math.BigDecimal data_flat_grid_01_09__attr_02;
 		private java.math.BigDecimal data_grid_01_count;
-		private java.math.BigDecimal data_grid_01__attr_02;
-		private java.math.BigDecimal data_grid_01__attr_01;
+	private java.math.BigDecimal data_flat_grid_02_00__attr_01;
+	private java.math.BigDecimal data_flat_grid_02_00__attr_02;
+	private java.math.BigDecimal data_flat_grid_02_01__attr_01;
+	private java.math.BigDecimal data_flat_grid_02_01__attr_02;
+	private java.math.BigDecimal data_flat_grid_02_02__attr_01;
+	private java.math.BigDecimal data_flat_grid_02_02__attr_02;
+	private java.math.BigDecimal data_flat_grid_02_03__attr_01;
+	private java.math.BigDecimal data_flat_grid_02_03__attr_02;
+	private java.math.BigDecimal data_flat_grid_02_04__attr_01;
+	private java.math.BigDecimal data_flat_grid_02_04__attr_02;
+	private java.math.BigDecimal data_flat_grid_02_05__attr_01;
+	private java.math.BigDecimal data_flat_grid_02_05__attr_02;
+	private java.math.BigDecimal data_flat_grid_02_06__attr_01;
+	private java.math.BigDecimal data_flat_grid_02_06__attr_02;
+	private java.math.BigDecimal data_flat_grid_02_07__attr_01;
+	private java.math.BigDecimal data_flat_grid_02_07__attr_02;
+	private java.math.BigDecimal data_flat_grid_02_08__attr_01;
+	private java.math.BigDecimal data_flat_grid_02_08__attr_02;
+	private java.math.BigDecimal data_flat_grid_02_09__attr_01;
+	private java.math.BigDecimal data_flat_grid_02_09__attr_02;
 		private java.math.BigDecimal data_flat_bus_dim_09__dim_levels__level_9;
 		private java.math.BigDecimal data_flat_bus_dim_09__dim_levels__level_8;
 		private java.math.BigDecimal data_flat_bus_dim_09__dim_levels__level_7;
@@ -1866,13 +1938,52 @@ private java.util.Date data_mail_date = new Date();
 		private java.lang.String data_cns_date_values_0;
 		private java.lang.Long panelist_user_defined_fields_count;
 		private java.lang.Long data_user_defined_fields_count;
-		private java.util.List<com.css_cns_mon.pub_css_cns_all_bre_panelists_rule_editing.data_bus_dim> data_bus_dim;
-		private java.util.List<com.css_cns_mon.pub_css_cns_all_bre_panelists_rule_editing.panelist_bus_dim> panelist_bus_dim;
-		private java.util.List<com.css_cns_mon.pub_css_cns_all_bre_panelists_rule_editing.data_user_defined_multi> data_user_defined_multi;
-		private java.util.List<com.css_cns_mon.pub_css_cns_all_bre_panelists_rule_editing.panelist_user_defined_multi> panelist_user_defined_multi;
+		private java.lang.Long data_flat_user_defined_multi_00__code_count;
+        private java.util.List<java.math.BigDecimal> data_flat_user_defined_multi_00__user_defined_codes = new ArrayList<java.math.BigDecimal>();
+        private java.lang.Long data_flat_user_defined_multi_01__code_count;
+        private java.util.List<java.math.BigDecimal> data_flat_user_defined_multi_01__user_defined_codes = new ArrayList<java.math.BigDecimal>();
+        private java.lang.Long data_flat_user_defined_multi_02__code_count;
+        private java.util.List<java.math.BigDecimal> data_flat_user_defined_multi_02__user_defined_codes = new ArrayList<java.math.BigDecimal>();
+        private java.lang.Long data_flat_user_defined_multi_03__code_count;
+        private java.util.List<java.math.BigDecimal> data_flat_user_defined_multi_03__user_defined_codes = new ArrayList<java.math.BigDecimal>();
+        private java.lang.Long data_flat_user_defined_multi_04__code_count;
+        private java.util.List<java.math.BigDecimal> data_flat_user_defined_multi_04__user_defined_codes = new ArrayList<java.math.BigDecimal>();
+        private java.lang.Long data_flat_user_defined_multi_05__code_count;
+        private java.util.List<java.math.BigDecimal> data_flat_user_defined_multi_05__user_defined_codes = new ArrayList<java.math.BigDecimal>();
+        private java.lang.Long data_flat_user_defined_multi_06__code_count;
+        private java.util.List<java.math.BigDecimal> data_flat_user_defined_multi_06__user_defined_codes = new ArrayList<java.math.BigDecimal>();
+        private java.lang.Long data_flat_user_defined_multi_07__code_count;
+        private java.util.List<java.math.BigDecimal> data_flat_user_defined_multi_07__user_defined_codes = new ArrayList<java.math.BigDecimal>();
+        private java.lang.Long data_flat_user_defined_multi_08__code_count;
+        private java.util.List<java.math.BigDecimal> data_flat_user_defined_multi_08__user_defined_codes = new ArrayList<java.math.BigDecimal>();
+        private java.lang.Long data_flat_user_defined_multi_09__code_count;
+        private java.util.List<java.math.BigDecimal> data_flat_user_defined_multi_09__user_defined_codes = new ArrayList<java.math.BigDecimal>();
+
+        private java.lang.Long panelist_flat_user_defined_multi_00__code_count;
+        private java.util.List<java.math.BigDecimal> panelist_flat_user_defined_multi_00__user_defined_codes = new ArrayList<java.math.BigDecimal>();
+        private java.lang.Long panelist_flat_user_defined_multi_01__code_count;
+        private java.util.List<java.math.BigDecimal> panelist_flat_user_defined_multi_01__user_defined_codes = new ArrayList<java.math.BigDecimal>();
+        private java.lang.Long panelist_flat_user_defined_multi_02__code_count;
+        private java.util.List<java.math.BigDecimal> panelist_flat_user_defined_multi_02__user_defined_codes = new ArrayList<java.math.BigDecimal>();
+        private java.lang.Long panelist_flat_user_defined_multi_03__code_count;
+        private java.util.List<java.math.BigDecimal> panelist_flat_user_defined_multi_03__user_defined_codes = new ArrayList<java.math.BigDecimal>();
+        private java.lang.Long panelist_flat_user_defined_multi_04__code_count;
+        private java.util.List<java.math.BigDecimal> panelist_flat_user_defined_multi_04__user_defined_codes = new ArrayList<java.math.BigDecimal>();
+        private java.lang.Long panelist_flat_user_defined_multi_05__code_count;
+        private java.util.List<java.math.BigDecimal> panelist_flat_user_defined_multi_05__user_defined_codes = new ArrayList<java.math.BigDecimal>();
+        private java.lang.Long panelist_flat_user_defined_multi_06__code_count;
+        private java.util.List<java.math.BigDecimal> panelist_flat_user_defined_multi_06__user_defined_codes = new ArrayList<java.math.BigDecimal>();
+        private java.lang.Long panelist_flat_user_defined_multi_07__code_count;
+        private java.util.List<java.math.BigDecimal> panelist_flat_user_defined_multi_07__user_defined_codes = new ArrayList<java.math.BigDecimal>();
+        private java.lang.Long panelist_flat_user_defined_multi_08__code_count;
+        private java.util.List<java.math.BigDecimal> panelist_flat_user_defined_multi_08__user_defined_codes = new ArrayList<java.math.BigDecimal>();
+        private java.lang.Long panelist_flat_user_defined_multi_09__code_count;
+        private java.util.List<java.math.BigDecimal> panelist_flat_user_defined_multi_09__user_defined_codes = new ArrayList<java.math.BigDecimal>();
+
 		private java.util.List<java.util.List<java.lang.String>> listOfStringLists = new java.util.ArrayList<java.util.List<java.lang.String>>();
 		private java.util.List<java.util.List<java.math.BigDecimal>> listOfBigDecimalLists = new java.util.ArrayList<java.util.List<java.math.BigDecimal>>();
-        private java.lang.String panelist_extended_dml_flag;
+		private java.lang.String panelist_extended_dml_flag;
+
 
 		public java.util.Date getData_mail_date() {
 			return data_mail_date;
@@ -1970,7 +2081,6 @@ private java.util.Date data_mail_date = new Date();
 		public void setString_data_multi_choice_codes_12(String string_data_multi_choice_codes_12) {
 			this.string_data_multi_choice_codes_12 = string_data_multi_choice_codes_12;
 		}
-
 		public String getString_data_multi_choice_codes_11() {
 			return string_data_multi_choice_codes_11;
 		}
@@ -7190,42 +7300,418 @@ private java.util.Date data_mail_date = new Date();
 		public void setPanelist_group_number(java.math.BigDecimal panelist_group_number) {
 			this.panelist_group_number = panelist_group_number;
 		}
-		public java.math.BigDecimal getPanelist_grid_02_count() {
-			return panelist_grid_02_count;
-		}
-		public void setPanelist_grid_02_count(java.math.BigDecimal panelist_grid_02_count) {
-			this.panelist_grid_02_count = panelist_grid_02_count;
-		}
-		public java.math.BigDecimal getPanelist_grid_02__attr_02() {
-			return panelist_grid_02__attr_02;
-		}
-		public void setPanelist_grid_02__attr_02(java.math.BigDecimal panelist_grid_02__attr_02) {
-			this.panelist_grid_02__attr_02 = panelist_grid_02__attr_02;
-		}
-		public java.math.BigDecimal getPanelist_grid_02__attr_01() {
-			return panelist_grid_02__attr_01;
-		}
-		public void setPanelist_grid_02__attr_01(java.math.BigDecimal panelist_grid_02__attr_01) {
-			this.panelist_grid_02__attr_01 = panelist_grid_02__attr_01;
-		}
 		public java.math.BigDecimal getPanelist_grid_01_count() {
 			return panelist_grid_01_count;
 		}
 		public void setPanelist_grid_01_count(java.math.BigDecimal panelist_grid_01_count) {
 			this.panelist_grid_01_count = panelist_grid_01_count;
 		}
-		public java.math.BigDecimal getPanelist_grid_01__attr_02() {
-			return panelist_grid_01__attr_02;
+			public java.math.BigDecimal getPanelist_flat_grid_01_00__attr_01()
+	{
+		return this.panelist_flat_grid_01_00__attr_01;
+	}
+
+	public void setPanelist_flat_grid_01_00__attr_01(java.math.BigDecimal panelist_flat_grid_01_00__attr_01)
+	{
+		 this.panelist_flat_grid_01_00__attr_01 = panelist_flat_grid_01_00__attr_01;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_01_00__attr_02()
+	{
+		return this.panelist_flat_grid_01_00__attr_02;
+	}
+
+	public void setPanelist_flat_grid_01_00__attr_02(java.math.BigDecimal panelist_flat_grid_01_00__attr_02)
+	{
+		 this.panelist_flat_grid_01_00__attr_02 = panelist_flat_grid_01_00__attr_02;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_01_01__attr_01()
+	{
+		return this.panelist_flat_grid_01_01__attr_01;
+	}
+
+	public void setPanelist_flat_grid_01_01__attr_01(java.math.BigDecimal panelist_flat_grid_01_01__attr_01)
+	{
+		 this.panelist_flat_grid_01_01__attr_01 = panelist_flat_grid_01_01__attr_01;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_01_01__attr_02()
+	{
+		return this.panelist_flat_grid_01_01__attr_02;
+	}
+
+	public void setPanelist_flat_grid_01_01__attr_02(java.math.BigDecimal panelist_flat_grid_01_01__attr_02)
+	{
+		 this.panelist_flat_grid_01_01__attr_02 = panelist_flat_grid_01_01__attr_02;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_01_02__attr_01()
+	{
+		return this.panelist_flat_grid_01_02__attr_01;
+	}
+
+	public void setPanelist_flat_grid_01_02__attr_01(java.math.BigDecimal panelist_flat_grid_01_02__attr_01)
+	{
+		 this.panelist_flat_grid_01_02__attr_01 = panelist_flat_grid_01_02__attr_01;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_01_02__attr_02()
+	{
+		return this.panelist_flat_grid_01_02__attr_02;
+	}
+
+	public void setPanelist_flat_grid_01_02__attr_02(java.math.BigDecimal panelist_flat_grid_01_02__attr_02)
+	{
+		 this.panelist_flat_grid_01_02__attr_02 = panelist_flat_grid_01_02__attr_02;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_01_03__attr_01()
+	{
+		return this.panelist_flat_grid_01_03__attr_01;
+	}
+
+	public void setPanelist_flat_grid_01_03__attr_01(java.math.BigDecimal panelist_flat_grid_01_03__attr_01)
+	{
+		 this.panelist_flat_grid_01_03__attr_01 = panelist_flat_grid_01_03__attr_01;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_01_03__attr_02()
+	{
+		return this.panelist_flat_grid_01_03__attr_02;
+	}
+
+	public void setPanelist_flat_grid_01_03__attr_02(java.math.BigDecimal panelist_flat_grid_01_03__attr_02)
+	{
+		 this.panelist_flat_grid_01_03__attr_02 = panelist_flat_grid_01_03__attr_02;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_01_04__attr_01()
+	{
+		return this.panelist_flat_grid_01_04__attr_01;
+	}
+
+	public void setPanelist_flat_grid_01_04__attr_01(java.math.BigDecimal panelist_flat_grid_01_04__attr_01)
+	{
+		 this.panelist_flat_grid_01_04__attr_01 = panelist_flat_grid_01_04__attr_01;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_01_04__attr_02()
+	{
+		return this.panelist_flat_grid_01_04__attr_02;
+	}
+
+	public void setPanelist_flat_grid_01_04__attr_02(java.math.BigDecimal panelist_flat_grid_01_04__attr_02)
+	{
+		 this.panelist_flat_grid_01_04__attr_02 = panelist_flat_grid_01_04__attr_02;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_01_05__attr_01()
+	{
+		return this.panelist_flat_grid_01_05__attr_01;
+	}
+
+	public void setPanelist_flat_grid_01_05__attr_01(java.math.BigDecimal panelist_flat_grid_01_05__attr_01)
+	{
+		 this.panelist_flat_grid_01_05__attr_01 = panelist_flat_grid_01_05__attr_01;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_01_05__attr_02()
+	{
+		return this.panelist_flat_grid_01_05__attr_02;
+	}
+
+	public void setPanelist_flat_grid_01_05__attr_02(java.math.BigDecimal panelist_flat_grid_01_05__attr_02)
+	{
+		 this.panelist_flat_grid_01_05__attr_02 = panelist_flat_grid_01_05__attr_02;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_01_06__attr_01()
+	{
+		return this.panelist_flat_grid_01_06__attr_01;
+	}
+
+	public void setPanelist_flat_grid_01_06__attr_01(java.math.BigDecimal panelist_flat_grid_01_06__attr_01)
+	{
+		 this.panelist_flat_grid_01_06__attr_01 = panelist_flat_grid_01_06__attr_01;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_01_06__attr_02()
+	{
+		return this.panelist_flat_grid_01_06__attr_02;
+	}
+
+	public void setPanelist_flat_grid_01_06__attr_02(java.math.BigDecimal panelist_flat_grid_01_06__attr_02)
+	{
+		 this.panelist_flat_grid_01_06__attr_02 = panelist_flat_grid_01_06__attr_02;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_01_07__attr_01()
+	{
+		return this.panelist_flat_grid_01_07__attr_01;
+	}
+
+	public void setPanelist_flat_grid_01_07__attr_01(java.math.BigDecimal panelist_flat_grid_01_07__attr_01)
+	{
+		 this.panelist_flat_grid_01_07__attr_01 = panelist_flat_grid_01_07__attr_01;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_01_07__attr_02()
+	{
+		return this.panelist_flat_grid_01_07__attr_02;
+	}
+
+	public void setPanelist_flat_grid_01_07__attr_02(java.math.BigDecimal panelist_flat_grid_01_07__attr_02)
+	{
+		 this.panelist_flat_grid_01_07__attr_02 = panelist_flat_grid_01_07__attr_02;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_01_08__attr_01()
+	{
+		return this.panelist_flat_grid_01_08__attr_01;
+	}
+
+	public void setPanelist_flat_grid_01_08__attr_01(java.math.BigDecimal panelist_flat_grid_01_08__attr_01)
+	{
+		 this.panelist_flat_grid_01_08__attr_01 = panelist_flat_grid_01_08__attr_01;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_01_08__attr_02()
+	{
+		return this.panelist_flat_grid_01_08__attr_02;
+	}
+
+	public void setPanelist_flat_grid_01_08__attr_02(java.math.BigDecimal panelist_flat_grid_01_08__attr_02)
+	{
+		 this.panelist_flat_grid_01_08__attr_02 = panelist_flat_grid_01_08__attr_02;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_01_09__attr_01()
+	{
+		return this.panelist_flat_grid_01_09__attr_01;
+	}
+
+	public void setPanelist_flat_grid_01_09__attr_01(java.math.BigDecimal panelist_flat_grid_01_09__attr_01)
+	{
+		 this.panelist_flat_grid_01_09__attr_01 = panelist_flat_grid_01_09__attr_01;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_01_09__attr_02()
+	{
+		return this.panelist_flat_grid_01_09__attr_02;
+	}
+
+	public void setPanelist_flat_grid_01_09__attr_02(java.math.BigDecimal panelist_flat_grid_01_09__attr_02)
+	{
+		 this.panelist_flat_grid_01_09__attr_02 = panelist_flat_grid_01_09__attr_02;
+	}
+		public java.math.BigDecimal getPanelist_grid_02_count() {
+			return panelist_grid_02_count;
 		}
-		public void setPanelist_grid_01__attr_02(java.math.BigDecimal panelist_grid_01__attr_02) {
-			this.panelist_grid_01__attr_02 = panelist_grid_01__attr_02;
-		}
-		public java.math.BigDecimal getPanelist_grid_01__attr_01() {
-			return panelist_grid_01__attr_01;
-		}
-		public void setPanelist_grid_01__attr_01(java.math.BigDecimal panelist_grid_01__attr_01) {
-			this.panelist_grid_01__attr_01 = panelist_grid_01__attr_01;
-		}
+		public void setPanelist_grid_02_count(java.math.BigDecimal panelist_grid_02_count) {
+			this.panelist_grid_02_count = panelist_grid_02_count;
+		}	
+
+	public java.math.BigDecimal getPanelist_flat_grid_02_00__attr_01()
+	{
+		return this.panelist_flat_grid_02_00__attr_01;
+	}
+
+	public void setPanelist_flat_grid_02_00__attr_01(java.math.BigDecimal panelist_flat_grid_02_00__attr_01)
+	{
+		 this.panelist_flat_grid_02_00__attr_01 = panelist_flat_grid_02_00__attr_01;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_02_00__attr_02()
+	{
+		return this.panelist_flat_grid_02_00__attr_02;
+	}
+
+	public void setPanelist_flat_grid_02_00__attr_02(java.math.BigDecimal panelist_flat_grid_02_00__attr_02)
+	{
+		 this.panelist_flat_grid_02_00__attr_02 = panelist_flat_grid_02_00__attr_02;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_02_01__attr_01()
+	{
+		return this.panelist_flat_grid_02_01__attr_01;
+	}
+
+	public void setPanelist_flat_grid_02_01__attr_01(java.math.BigDecimal panelist_flat_grid_02_01__attr_01)
+	{
+		 this.panelist_flat_grid_02_01__attr_01 = panelist_flat_grid_02_01__attr_01;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_02_01__attr_02()
+	{
+		return this.panelist_flat_grid_02_01__attr_02;
+	}
+
+	public void setPanelist_flat_grid_02_01__attr_02(java.math.BigDecimal panelist_flat_grid_02_01__attr_02)
+	{
+		 this.panelist_flat_grid_02_01__attr_02 = panelist_flat_grid_02_01__attr_02;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_02_02__attr_01()
+	{
+		return this.panelist_flat_grid_02_02__attr_01;
+	}
+
+	public void setPanelist_flat_grid_02_02__attr_01(java.math.BigDecimal panelist_flat_grid_02_02__attr_01)
+	{
+		 this.panelist_flat_grid_02_02__attr_01 = panelist_flat_grid_02_02__attr_01;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_02_02__attr_02()
+	{
+		return this.panelist_flat_grid_02_02__attr_02;
+	}
+
+	public void setPanelist_flat_grid_02_02__attr_02(java.math.BigDecimal panelist_flat_grid_02_02__attr_02)
+	{
+		 this.panelist_flat_grid_02_02__attr_02 = panelist_flat_grid_02_02__attr_02;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_02_03__attr_01()
+	{
+		return this.panelist_flat_grid_02_03__attr_01;
+	}
+
+	public void setPanelist_flat_grid_02_03__attr_01(java.math.BigDecimal panelist_flat_grid_02_03__attr_01)
+	{
+		 this.panelist_flat_grid_02_03__attr_01 = panelist_flat_grid_02_03__attr_01;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_02_03__attr_02()
+	{
+		return this.panelist_flat_grid_02_03__attr_02;
+	}
+
+	public void setPanelist_flat_grid_02_03__attr_02(java.math.BigDecimal panelist_flat_grid_02_03__attr_02)
+	{
+		 this.panelist_flat_grid_02_03__attr_02 = panelist_flat_grid_02_03__attr_02;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_02_04__attr_01()
+	{
+		return this.panelist_flat_grid_02_04__attr_01;
+	}
+
+	public void setPanelist_flat_grid_02_04__attr_01(java.math.BigDecimal panelist_flat_grid_02_04__attr_01)
+	{
+		 this.panelist_flat_grid_02_04__attr_01 = panelist_flat_grid_02_04__attr_01;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_02_04__attr_02()
+	{
+		return this.panelist_flat_grid_02_04__attr_02;
+	}
+
+	public void setPanelist_flat_grid_02_04__attr_02(java.math.BigDecimal panelist_flat_grid_02_04__attr_02)
+	{
+		 this.panelist_flat_grid_02_04__attr_02 = panelist_flat_grid_02_04__attr_02;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_02_05__attr_01()
+	{
+		return this.panelist_flat_grid_02_05__attr_01;
+	}
+
+	public void setPanelist_flat_grid_02_05__attr_01(java.math.BigDecimal panelist_flat_grid_02_05__attr_01)
+	{
+		 this.panelist_flat_grid_02_05__attr_01 = panelist_flat_grid_02_05__attr_01;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_02_05__attr_02()
+	{
+		return this.panelist_flat_grid_02_05__attr_02;
+	}
+
+	public void setPanelist_flat_grid_02_05__attr_02(java.math.BigDecimal panelist_flat_grid_02_05__attr_02)
+	{
+		 this.panelist_flat_grid_02_05__attr_02 = panelist_flat_grid_02_05__attr_02;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_02_06__attr_01()
+	{
+		return this.panelist_flat_grid_02_06__attr_01;
+	}
+
+	public void setPanelist_flat_grid_02_06__attr_01(java.math.BigDecimal panelist_flat_grid_02_06__attr_01)
+	{
+		 this.panelist_flat_grid_02_06__attr_01 = panelist_flat_grid_02_06__attr_01;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_02_06__attr_02()
+	{
+		return this.panelist_flat_grid_02_06__attr_02;
+	}
+
+	public void setPanelist_flat_grid_02_06__attr_02(java.math.BigDecimal panelist_flat_grid_02_06__attr_02)
+	{
+		 this.panelist_flat_grid_02_06__attr_02 = panelist_flat_grid_02_06__attr_02;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_02_07__attr_01()
+	{
+		return this.panelist_flat_grid_02_07__attr_01;
+	}
+
+	public void setPanelist_flat_grid_02_07__attr_01(java.math.BigDecimal panelist_flat_grid_02_07__attr_01)
+	{
+		 this.panelist_flat_grid_02_07__attr_01 = panelist_flat_grid_02_07__attr_01;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_02_07__attr_02()
+	{
+		return this.panelist_flat_grid_02_07__attr_02;
+	}
+
+	public void setPanelist_flat_grid_02_07__attr_02(java.math.BigDecimal panelist_flat_grid_02_07__attr_02)
+	{
+		 this.panelist_flat_grid_02_07__attr_02 = panelist_flat_grid_02_07__attr_02;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_02_08__attr_01()
+	{
+		return this.panelist_flat_grid_02_08__attr_01;
+	}
+
+	public void setPanelist_flat_grid_02_08__attr_01(java.math.BigDecimal panelist_flat_grid_02_08__attr_01)
+	{
+		 this.panelist_flat_grid_02_08__attr_01 = panelist_flat_grid_02_08__attr_01;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_02_08__attr_02()
+	{
+		return this.panelist_flat_grid_02_08__attr_02;
+	}
+
+	public void setPanelist_flat_grid_02_08__attr_02(java.math.BigDecimal panelist_flat_grid_02_08__attr_02)
+	{
+		 this.panelist_flat_grid_02_08__attr_02 = panelist_flat_grid_02_08__attr_02;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_02_09__attr_01()
+	{
+		return this.panelist_flat_grid_02_09__attr_01;
+	}
+
+	public void setPanelist_flat_grid_02_09__attr_01(java.math.BigDecimal panelist_flat_grid_02_09__attr_01)
+	{
+		 this.panelist_flat_grid_02_09__attr_01 = panelist_flat_grid_02_09__attr_01;
+	}
+
+	public java.math.BigDecimal getPanelist_flat_grid_02_09__attr_02()
+	{
+		return this.panelist_flat_grid_02_09__attr_02;
+	}
+
+	public void setPanelist_flat_grid_02_09__attr_02(java.math.BigDecimal panelist_flat_grid_02_09__attr_02)
+	{
+		 this.panelist_flat_grid_02_09__attr_02 = panelist_flat_grid_02_09__attr_02;
+	}
+	
 		public java.math.BigDecimal getPanelist_geo_dim__level_9() {
 			return panelist_geo_dim__level_9;
 		}
@@ -10992,17 +11478,204 @@ private java.util.Date data_mail_date = new Date();
 		public void setData_grid_02_count(java.math.BigDecimal data_grid_02_count) {
 			this.data_grid_02_count = data_grid_02_count;
 		}
-		public java.math.BigDecimal getData_grid_02__attr_02() {
-			return data_grid_02__attr_02;
+		public java.math.BigDecimal getData_flat_grid_02_00__attr_01()
+		{
+			return this.data_flat_grid_02_00__attr_01;
 		}
-		public void setData_grid_02__attr_02(java.math.BigDecimal data_grid_02__attr_02) {
-			this.data_grid_02__attr_02 = data_grid_02__attr_02;
+
+		public void setData_flat_grid_02_00__attr_01(java.math.BigDecimal data_flat_grid_02_00__attr_01)
+		{
+			 this.data_flat_grid_02_00__attr_01 = data_flat_grid_02_00__attr_01;
 		}
-		public java.math.BigDecimal getData_grid_02__attr_01() {
-			return data_grid_02__attr_01;
+
+		public java.math.BigDecimal getData_flat_grid_02_00__attr_02()
+		{
+			return this.data_flat_grid_02_00__attr_02;
 		}
-		public void setData_grid_02__attr_01(java.math.BigDecimal data_grid_02__attr_01) {
-			this.data_grid_02__attr_01 = data_grid_02__attr_01;
+
+		public void setData_flat_grid_02_00__attr_02(java.math.BigDecimal data_flat_grid_02_00__attr_02)
+		{
+			 this.data_flat_grid_02_00__attr_02 = data_flat_grid_02_00__attr_02;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_02_01__attr_01()
+		{
+			return this.data_flat_grid_02_01__attr_01;
+		}
+
+		public void setData_flat_grid_02_01__attr_01(java.math.BigDecimal data_flat_grid_02_01__attr_01)
+		{
+			 this.data_flat_grid_02_01__attr_01 = data_flat_grid_02_01__attr_01;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_02_01__attr_02()
+		{
+			return this.data_flat_grid_02_01__attr_02;
+		}
+
+		public void setData_flat_grid_02_01__attr_02(java.math.BigDecimal data_flat_grid_02_01__attr_02)
+		{
+			 this.data_flat_grid_02_01__attr_02 = data_flat_grid_02_01__attr_02;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_02_02__attr_01()
+		{
+			return this.data_flat_grid_02_02__attr_01;
+		}
+
+		public void setData_flat_grid_02_02__attr_01(java.math.BigDecimal data_flat_grid_02_02__attr_01)
+		{
+			 this.data_flat_grid_02_02__attr_01 = data_flat_grid_02_02__attr_01;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_02_02__attr_02()
+		{
+			return this.data_flat_grid_02_02__attr_02;
+		}
+
+		public void setData_flat_grid_02_02__attr_02(java.math.BigDecimal data_flat_grid_02_02__attr_02)
+		{
+			 this.data_flat_grid_02_02__attr_02 = data_flat_grid_02_02__attr_02;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_02_03__attr_01()
+		{
+			return this.data_flat_grid_02_03__attr_01;
+		}
+
+		public void setData_flat_grid_02_03__attr_01(java.math.BigDecimal data_flat_grid_02_03__attr_01)
+		{
+			 this.data_flat_grid_02_03__attr_01 = data_flat_grid_02_03__attr_01;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_02_03__attr_02()
+		{
+			return this.data_flat_grid_02_03__attr_02;
+		}
+
+		public void setData_flat_grid_02_03__attr_02(java.math.BigDecimal data_flat_grid_02_03__attr_02)
+		{
+			 this.data_flat_grid_02_03__attr_02 = data_flat_grid_02_03__attr_02;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_02_04__attr_01()
+		{
+			return this.data_flat_grid_02_04__attr_01;
+		}
+
+		public void setData_flat_grid_02_04__attr_01(java.math.BigDecimal data_flat_grid_02_04__attr_01)
+		{
+			 this.data_flat_grid_02_04__attr_01 = data_flat_grid_02_04__attr_01;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_02_04__attr_02()
+		{
+			return this.data_flat_grid_02_04__attr_02;
+		}
+
+		public void setData_flat_grid_02_04__attr_02(java.math.BigDecimal data_flat_grid_02_04__attr_02)
+		{
+			 this.data_flat_grid_02_04__attr_02 = data_flat_grid_02_04__attr_02;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_02_05__attr_01()
+		{
+			return this.data_flat_grid_02_05__attr_01;
+		}
+
+		public void setData_flat_grid_02_05__attr_01(java.math.BigDecimal data_flat_grid_02_05__attr_01)
+		{
+			 this.data_flat_grid_02_05__attr_01 = data_flat_grid_02_05__attr_01;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_02_05__attr_02()
+		{
+			return this.data_flat_grid_02_05__attr_02;
+		}
+
+		public void setData_flat_grid_02_05__attr_02(java.math.BigDecimal data_flat_grid_02_05__attr_02)
+		{
+			 this.data_flat_grid_02_05__attr_02 = data_flat_grid_02_05__attr_02;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_02_06__attr_01()
+		{
+			return this.data_flat_grid_02_06__attr_01;
+		}
+
+		public void setData_flat_grid_02_06__attr_01(java.math.BigDecimal data_flat_grid_02_06__attr_01)
+		{
+			 this.data_flat_grid_02_06__attr_01 = data_flat_grid_02_06__attr_01;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_02_06__attr_02()
+		{
+			return this.data_flat_grid_02_06__attr_02;
+		}
+
+		public void setData_flat_grid_02_06__attr_02(java.math.BigDecimal data_flat_grid_02_06__attr_02)
+		{
+			 this.data_flat_grid_02_06__attr_02 = data_flat_grid_02_06__attr_02;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_02_07__attr_01()
+		{
+			return this.data_flat_grid_02_07__attr_01;
+		}
+
+		public void setData_flat_grid_02_07__attr_01(java.math.BigDecimal data_flat_grid_02_07__attr_01)
+		{
+			 this.data_flat_grid_02_07__attr_01 = data_flat_grid_02_07__attr_01;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_02_07__attr_02()
+		{
+			return this.data_flat_grid_02_07__attr_02;
+		}
+
+		public void setData_flat_grid_02_07__attr_02(java.math.BigDecimal data_flat_grid_02_07__attr_02)
+		{
+			 this.data_flat_grid_02_07__attr_02 = data_flat_grid_02_07__attr_02;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_02_08__attr_01()
+		{
+			return this.data_flat_grid_02_08__attr_01;
+		}
+
+		public void setData_flat_grid_02_08__attr_01(java.math.BigDecimal data_flat_grid_02_08__attr_01)
+		{
+			 this.data_flat_grid_02_08__attr_01 = data_flat_grid_02_08__attr_01;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_02_08__attr_02()
+		{
+			return this.data_flat_grid_02_08__attr_02;
+		}
+
+		public void setData_flat_grid_02_08__attr_02(java.math.BigDecimal data_flat_grid_02_08__attr_02)
+		{
+			 this.data_flat_grid_02_08__attr_02 = data_flat_grid_02_08__attr_02;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_02_09__attr_01()
+		{
+			return this.data_flat_grid_02_09__attr_01;
+		}
+
+		public void setData_flat_grid_02_09__attr_01(java.math.BigDecimal data_flat_grid_02_09__attr_01)
+		{
+			 this.data_flat_grid_02_09__attr_01 = data_flat_grid_02_09__attr_01;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_02_09__attr_02()
+		{
+			return this.data_flat_grid_02_09__attr_02;
+		}
+
+		public void setData_flat_grid_02_09__attr_02(java.math.BigDecimal data_flat_grid_02_09__attr_02)
+		{
+			 this.data_flat_grid_02_09__attr_02 = data_flat_grid_02_09__attr_02;
 		}
 		public java.math.BigDecimal getData_grid_01_count() {
 			return data_grid_01_count;
@@ -11010,17 +11683,204 @@ private java.util.Date data_mail_date = new Date();
 		public void setData_grid_01_count(java.math.BigDecimal data_grid_01_count) {
 			this.data_grid_01_count = data_grid_01_count;
 		}
-		public java.math.BigDecimal getData_grid_01__attr_02() {
-			return data_grid_01__attr_02;
+		public java.math.BigDecimal getData_flat_grid_01_00__attr_01()
+		{
+			return this.data_flat_grid_01_00__attr_01;
 		}
-		public void setData_grid_01__attr_02(java.math.BigDecimal data_grid_01__attr_02) {
-			this.data_grid_01__attr_02 = data_grid_01__attr_02;
+
+		public void setData_flat_grid_01_00__attr_01(java.math.BigDecimal data_flat_grid_01_00__attr_01)
+		{
+			 this.data_flat_grid_01_00__attr_01 = data_flat_grid_01_00__attr_01;
 		}
-		public java.math.BigDecimal getData_grid_01__attr_01() {
-			return data_grid_01__attr_01;
+
+		public java.math.BigDecimal getData_flat_grid_01_00__attr_02()
+		{
+			return this.data_flat_grid_01_00__attr_02;
 		}
-		public void setData_grid_01__attr_01(java.math.BigDecimal data_grid_01__attr_01) {
-			this.data_grid_01__attr_01 = data_grid_01__attr_01;
+
+		public void setData_flat_grid_01_00__attr_02(java.math.BigDecimal data_flat_grid_01_00__attr_02)
+		{
+			 this.data_flat_grid_01_00__attr_02 = data_flat_grid_01_00__attr_02;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_01_01__attr_01()
+		{
+			return this.data_flat_grid_01_01__attr_01;
+		}
+
+		public void setData_flat_grid_01_01__attr_01(java.math.BigDecimal data_flat_grid_01_01__attr_01)
+		{
+			 this.data_flat_grid_01_01__attr_01 = data_flat_grid_01_01__attr_01;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_01_01__attr_02()
+		{
+			return this.data_flat_grid_01_01__attr_02;
+		}
+
+		public void setData_flat_grid_01_01__attr_02(java.math.BigDecimal data_flat_grid_01_01__attr_02)
+		{
+			 this.data_flat_grid_01_01__attr_02 = data_flat_grid_01_01__attr_02;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_01_02__attr_01()
+		{
+			return this.data_flat_grid_01_02__attr_01;
+		}
+
+		public void setData_flat_grid_01_02__attr_01(java.math.BigDecimal data_flat_grid_01_02__attr_01)
+		{
+			 this.data_flat_grid_01_02__attr_01 = data_flat_grid_01_02__attr_01;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_01_02__attr_02()
+		{
+			return this.data_flat_grid_01_02__attr_02;
+		}
+
+		public void setData_flat_grid_01_02__attr_02(java.math.BigDecimal data_flat_grid_01_02__attr_02)
+		{
+			 this.data_flat_grid_01_02__attr_02 = data_flat_grid_01_02__attr_02;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_01_03__attr_01()
+		{
+			return this.data_flat_grid_01_03__attr_01;
+		}
+
+		public void setData_flat_grid_01_03__attr_01(java.math.BigDecimal data_flat_grid_01_03__attr_01)
+		{
+			 this.data_flat_grid_01_03__attr_01 = data_flat_grid_01_03__attr_01;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_01_03__attr_02()
+		{
+			return this.data_flat_grid_01_03__attr_02;
+		}
+
+		public void setData_flat_grid_01_03__attr_02(java.math.BigDecimal data_flat_grid_01_03__attr_02)
+		{
+			 this.data_flat_grid_01_03__attr_02 = data_flat_grid_01_03__attr_02;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_01_04__attr_01()
+		{
+			return this.data_flat_grid_01_04__attr_01;
+		}
+
+		public void setData_flat_grid_01_04__attr_01(java.math.BigDecimal data_flat_grid_01_04__attr_01)
+		{
+			 this.data_flat_grid_01_04__attr_01 = data_flat_grid_01_04__attr_01;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_01_04__attr_02()
+		{
+			return this.data_flat_grid_01_04__attr_02;
+		}
+
+		public void setData_flat_grid_01_04__attr_02(java.math.BigDecimal data_flat_grid_01_04__attr_02)
+		{
+			 this.data_flat_grid_01_04__attr_02 = data_flat_grid_01_04__attr_02;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_01_05__attr_01()
+		{
+			return this.data_flat_grid_01_05__attr_01;
+		}
+
+		public void setData_flat_grid_01_05__attr_01(java.math.BigDecimal data_flat_grid_01_05__attr_01)
+		{
+			 this.data_flat_grid_01_05__attr_01 = data_flat_grid_01_05__attr_01;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_01_05__attr_02()
+		{
+			return this.data_flat_grid_01_05__attr_02;
+		}
+
+		public void setData_flat_grid_01_05__attr_02(java.math.BigDecimal data_flat_grid_01_05__attr_02)
+		{
+			 this.data_flat_grid_01_05__attr_02 = data_flat_grid_01_05__attr_02;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_01_06__attr_01()
+		{
+			return this.data_flat_grid_01_06__attr_01;
+		}
+
+		public void setData_flat_grid_01_06__attr_01(java.math.BigDecimal data_flat_grid_01_06__attr_01)
+		{
+			 this.data_flat_grid_01_06__attr_01 = data_flat_grid_01_06__attr_01;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_01_06__attr_02()
+		{
+			return this.data_flat_grid_01_06__attr_02;
+		}
+
+		public void setData_flat_grid_01_06__attr_02(java.math.BigDecimal data_flat_grid_01_06__attr_02)
+		{
+			 this.data_flat_grid_01_06__attr_02 = data_flat_grid_01_06__attr_02;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_01_07__attr_01()
+		{
+			return this.data_flat_grid_01_07__attr_01;
+		}
+
+		public void setData_flat_grid_01_07__attr_01(java.math.BigDecimal data_flat_grid_01_07__attr_01)
+		{
+			 this.data_flat_grid_01_07__attr_01 = data_flat_grid_01_07__attr_01;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_01_07__attr_02()
+		{
+			return this.data_flat_grid_01_07__attr_02;
+		}
+
+		public void setData_flat_grid_01_07__attr_02(java.math.BigDecimal data_flat_grid_01_07__attr_02)
+		{
+			 this.data_flat_grid_01_07__attr_02 = data_flat_grid_01_07__attr_02;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_01_08__attr_01()
+		{
+			return this.data_flat_grid_01_08__attr_01;
+		}
+
+		public void setData_flat_grid_01_08__attr_01(java.math.BigDecimal data_flat_grid_01_08__attr_01)
+		{
+			 this.data_flat_grid_01_08__attr_01 = data_flat_grid_01_08__attr_01;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_01_08__attr_02()
+		{
+			return this.data_flat_grid_01_08__attr_02;
+		}
+
+		public void setData_flat_grid_01_08__attr_02(java.math.BigDecimal data_flat_grid_01_08__attr_02)
+		{
+			 this.data_flat_grid_01_08__attr_02 = data_flat_grid_01_08__attr_02;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_01_09__attr_01()
+		{
+			return this.data_flat_grid_01_09__attr_01;
+		}
+
+		public void setData_flat_grid_01_09__attr_01(java.math.BigDecimal data_flat_grid_01_09__attr_01)
+		{
+			 this.data_flat_grid_01_09__attr_01 = data_flat_grid_01_09__attr_01;
+		}
+
+		public java.math.BigDecimal getData_flat_grid_01_09__attr_02()
+		{
+			return this.data_flat_grid_01_09__attr_02;
+		}
+
+		public void setData_flat_grid_01_09__attr_02(java.math.BigDecimal data_flat_grid_01_09__attr_02)
+		{
+			 this.data_flat_grid_01_09__attr_02 = data_flat_grid_01_09__attr_02;
 		}
 		public java.math.BigDecimal getData_flat_bus_dim_09__dim_levels__level_9() {
 			return data_flat_bus_dim_09__dim_levels__level_9;
@@ -13433,7 +14293,6 @@ private java.util.Date data_mail_date = new Date();
 		public void setData_user_defined_fields_count(java.lang.Long data_user_defined_fields_count) {
 			this.data_user_defined_fields_count = data_user_defined_fields_count;
 		}
-		
 		public java.lang.String getPanelist_extended_dml_flag() {
 			return panelist_extended_dml_flag;
 		}
@@ -13441,47 +14300,407 @@ private java.util.Date data_mail_date = new Date();
 			this.panelist_extended_dml_flag = panelist_extended_dml_flag;
 		}
 		
-		public java.util.List<com.css_cns_mon.pub_css_cns_all_bre_panelists_rule_editing.data_bus_dim> getData_bus_dim()
-			{
-				return this.data_bus_dim;
-			}
 
-			public void setData_bus_dim(java.util.List<com.css_cns_mon.pub_css_cns_all_bre_panelists_rule_editing.data_bus_dim> data_bus_dim)
-			{
-				 this.data_bus_dim = data_bus_dim;
-			}
+	public java.lang.Long getData_flat_user_defined_multi_00__code_count()
+	{
+		return this.data_flat_user_defined_multi_00__code_count;
+	}
 
-		public java.util.List<com.css_cns_mon.pub_css_cns_all_bre_panelists_rule_editing.panelist_bus_dim> getPanelist_bus_dim()
-			{
-				return this.panelist_bus_dim;
-			}
+	public void setData_flat_user_defined_multi_00__code_count(java.lang.Long data_flat_user_defined_multi_00__code_count)
+	{
+		 this.data_flat_user_defined_multi_00__code_count = data_flat_user_defined_multi_00__code_count;
+	}
 
-			public void setPanelist_bus_dim(java.util.List<com.css_cns_mon.pub_css_cns_all_bre_panelists_rule_editing.panelist_bus_dim> panelist_bus_dim)
-			{
-				 this.panelist_bus_dim = panelist_bus_dim;
-			}
+	public java.util.List<java.math.BigDecimal> getData_flat_user_defined_multi_00__user_defined_codes()
+	{
+		return this.data_flat_user_defined_multi_00__user_defined_codes;
+	}
+
+	public void setData_flat_user_defined_multi_00__user_defined_codes(java.math.BigDecimal drools_data_flat_user_defined_multi_00__user_defined_codes)
+	{
+		 this.data_flat_user_defined_multi_00__user_defined_codes.add(drools_data_flat_user_defined_multi_00__user_defined_codes);
+	}
+
+	public java.lang.Long getData_flat_user_defined_multi_01__code_count()
+	{
+		return this.data_flat_user_defined_multi_01__code_count;
+	}
+
+	public void setData_flat_user_defined_multi_01__code_count(java.lang.Long data_flat_user_defined_multi_01__code_count)
+	{
+		 this.data_flat_user_defined_multi_01__code_count = data_flat_user_defined_multi_01__code_count;
+	}
+
+	public java.util.List<java.math.BigDecimal> getData_flat_user_defined_multi_01__user_defined_codes()
+	{
+		return this.data_flat_user_defined_multi_01__user_defined_codes;
+	}
+
+	public void setData_flat_user_defined_multi_01__user_defined_codes(java.math.BigDecimal drools_data_flat_user_defined_multi_01__user_defined_codes)
+	{
+		 this.data_flat_user_defined_multi_01__user_defined_codes.add(drools_data_flat_user_defined_multi_01__user_defined_codes);
+	}
+
+	public java.lang.Long getData_flat_user_defined_multi_02__code_count()
+	{
+		return this.data_flat_user_defined_multi_02__code_count;
+	}
+
+	public void setData_flat_user_defined_multi_02__code_count(java.lang.Long data_flat_user_defined_multi_02__code_count)
+	{
+		 this.data_flat_user_defined_multi_02__code_count = data_flat_user_defined_multi_02__code_count;
+	}
+
+	public java.util.List<java.math.BigDecimal> getData_flat_user_defined_multi_02__user_defined_codes()
+	{
+		return this.data_flat_user_defined_multi_02__user_defined_codes;
+	}
+
+	public void setData_flat_user_defined_multi_02__user_defined_codes(java.math.BigDecimal drools_data_flat_user_defined_multi_02__user_defined_codes)
+	{
+		 this.data_flat_user_defined_multi_02__user_defined_codes.add(drools_data_flat_user_defined_multi_02__user_defined_codes);
+	}
+
+	public java.lang.Long getData_flat_user_defined_multi_03__code_count()
+	{
+		return this.data_flat_user_defined_multi_03__code_count;
+	}
+
+	public void setData_flat_user_defined_multi_03__code_count(java.lang.Long data_flat_user_defined_multi_03__code_count)
+	{
+		 this.data_flat_user_defined_multi_03__code_count = data_flat_user_defined_multi_03__code_count;
+	}
+
+	public java.util.List<java.math.BigDecimal> getData_flat_user_defined_multi_03__user_defined_codes()
+	{
+		return this.data_flat_user_defined_multi_03__user_defined_codes;
+	}
+
+	public void setData_flat_user_defined_multi_03__user_defined_codes(java.math.BigDecimal drools_data_flat_user_defined_multi_03__user_defined_codes)
+	{
+		 this.data_flat_user_defined_multi_03__user_defined_codes.add(drools_data_flat_user_defined_multi_03__user_defined_codes);
+	}
+
+	public java.lang.Long getData_flat_user_defined_multi_04__code_count()
+	{
+		return this.data_flat_user_defined_multi_04__code_count;
+	}
+
+	public void setData_flat_user_defined_multi_04__code_count(java.lang.Long data_flat_user_defined_multi_04__code_count)
+	{
+		 this.data_flat_user_defined_multi_04__code_count = data_flat_user_defined_multi_04__code_count;
+	}
+
+	public java.util.List<java.math.BigDecimal> getData_flat_user_defined_multi_04__user_defined_codes()
+	{
+		return this.data_flat_user_defined_multi_04__user_defined_codes;
+	}
+
+	public void setData_flat_user_defined_multi_04__user_defined_codes(java.math.BigDecimal drools_data_flat_user_defined_multi_04__user_defined_codes)
+	{
+		 this.data_flat_user_defined_multi_04__user_defined_codes.add(drools_data_flat_user_defined_multi_04__user_defined_codes);
+	}
+
+	public java.lang.Long getData_flat_user_defined_multi_05__code_count()
+	{
+		return this.data_flat_user_defined_multi_05__code_count;
+	}
+
+	public void setData_flat_user_defined_multi_05__code_count(java.lang.Long data_flat_user_defined_multi_05__code_count)
+	{
+		 this.data_flat_user_defined_multi_05__code_count = data_flat_user_defined_multi_05__code_count;
+	}
+
+	public java.util.List<java.math.BigDecimal> getData_flat_user_defined_multi_05__user_defined_codes()
+	{
+		return this.data_flat_user_defined_multi_05__user_defined_codes;
+	}
+
+	public void setData_flat_user_defined_multi_05__user_defined_codes(java.math.BigDecimal drools_data_flat_user_defined_multi_05__user_defined_codes)
+	{
+		 this.data_flat_user_defined_multi_05__user_defined_codes.add(drools_data_flat_user_defined_multi_05__user_defined_codes);
+	}
+
+	public java.lang.Long getData_flat_user_defined_multi_06__code_count()
+	{
+		return this.data_flat_user_defined_multi_06__code_count;
+	}
+
+	public void setData_flat_user_defined_multi_06__code_count(java.lang.Long data_flat_user_defined_multi_06__code_count)
+	{
+		 this.data_flat_user_defined_multi_06__code_count = data_flat_user_defined_multi_06__code_count;
+	}
+
+	public java.util.List<java.math.BigDecimal> getData_flat_user_defined_multi_06__user_defined_codes()
+	{
+		return this.data_flat_user_defined_multi_06__user_defined_codes;
+	}
+
+	public void setData_flat_user_defined_multi_06__user_defined_codes(java.math.BigDecimal drools_data_flat_user_defined_multi_06__user_defined_codes)
+	{
+		 this.data_flat_user_defined_multi_06__user_defined_codes.add(drools_data_flat_user_defined_multi_06__user_defined_codes);
+	}
+
+	public java.lang.Long getData_flat_user_defined_multi_07__code_count()
+	{
+		return this.data_flat_user_defined_multi_07__code_count;
+	}
+
+	public void setData_flat_user_defined_multi_07__code_count(java.lang.Long data_flat_user_defined_multi_07__code_count)
+	{
+		 this.data_flat_user_defined_multi_07__code_count = data_flat_user_defined_multi_07__code_count;
+	}
+
+	public java.util.List<java.math.BigDecimal> getData_flat_user_defined_multi_07__user_defined_codes()
+	{
+		return this.data_flat_user_defined_multi_07__user_defined_codes;
+	}
+
+	public void setData_flat_user_defined_multi_07__user_defined_codes(java.math.BigDecimal drools_data_flat_user_defined_multi_07__user_defined_codes)
+	{
+		 this.data_flat_user_defined_multi_07__user_defined_codes.add(drools_data_flat_user_defined_multi_07__user_defined_codes);
+	}
+
+	public java.lang.Long getData_flat_user_defined_multi_08__code_count()
+	{
+		return this.data_flat_user_defined_multi_08__code_count;
+	}
+
+	public void setData_flat_user_defined_multi_08__code_count(java.lang.Long data_flat_user_defined_multi_08__code_count)
+	{
+		 this.data_flat_user_defined_multi_08__code_count = data_flat_user_defined_multi_08__code_count;
+	}
+
+	public java.util.List<java.math.BigDecimal> getData_flat_user_defined_multi_08__user_defined_codes()
+	{
+		return this.data_flat_user_defined_multi_08__user_defined_codes;
+	}
+
+	public void setData_flat_user_defined_multi_08__user_defined_codes(java.math.BigDecimal drools_data_flat_user_defined_multi_08__user_defined_codes)
+	{
+		 this.data_flat_user_defined_multi_08__user_defined_codes.add(drools_data_flat_user_defined_multi_08__user_defined_codes);
+	}
+
+	public java.lang.Long getData_flat_user_defined_multi_09__code_count()
+	{
+		return this.data_flat_user_defined_multi_09__code_count;
+	}
+
+	public void setData_flat_user_defined_multi_09__code_count(java.lang.Long data_flat_user_defined_multi_09__code_count)
+	{
+		 this.data_flat_user_defined_multi_09__code_count = data_flat_user_defined_multi_09__code_count;
+	}
+
+	public java.util.List<java.math.BigDecimal> getData_flat_user_defined_multi_09__user_defined_codes()
+	{
+		return this.data_flat_user_defined_multi_09__user_defined_codes;
+	}
+
+	public void setData_flat_user_defined_multi_09__user_defined_codes(java.math.BigDecimal drools_data_flat_user_defined_multi_09__user_defined_codes)
+	{
+		 this.data_flat_user_defined_multi_09__user_defined_codes.add(drools_data_flat_user_defined_multi_09__user_defined_codes);
+	}
 			
-		public java.util.List<com.css_cns_mon.pub_css_cns_all_bre_panelists_rule_editing.data_user_defined_multi> getData_user_defined_multi()
-			{
-				return this.data_user_defined_multi;
-			}
 
-			public void setData_user_defined_multi(java.util.List<com.css_cns_mon.pub_css_cns_all_bre_panelists_rule_editing.data_user_defined_multi> data_user_defined_multi)
-			{
-				 this.data_user_defined_multi = data_user_defined_multi;
-			}
-			
+		public java.lang.Long getPanelist_flat_user_defined_multi_00__code_count()
+	{
+		return this.panelist_flat_user_defined_multi_00__code_count;
+	}
 
-		public java.util.List<com.css_cns_mon.pub_css_cns_all_bre_panelists_rule_editing.panelist_user_defined_multi> getPanelist_user_defined_multi()
-			{
-				return this.panelist_user_defined_multi;
-			}
+	public void setPanelist_flat_user_defined_multi_00__code_count(java.lang.Long panelist_flat_user_defined_multi_00__code_count)
+	{
+		 this.panelist_flat_user_defined_multi_00__code_count = panelist_flat_user_defined_multi_00__code_count;
+	}
 
-			public void setPanelist_user_defined_multi(java.util.List<com.css_cns_mon.pub_css_cns_all_bre_panelists_rule_editing.panelist_user_defined_multi> panelist_user_defined_multi)
-			{
-				 this.panelist_user_defined_multi = panelist_user_defined_multi;
-			}
-			
+	public java.util.List<java.math.BigDecimal> getPanelist_flat_user_defined_multi_00__user_defined_codes()
+	{
+		return this.panelist_flat_user_defined_multi_00__user_defined_codes;
+	}
+
+	public void setPanelist_flat_user_defined_multi_00__user_defined_codes(java.math.BigDecimal drools_panelist_flat_user_defined_multi_00__user_defined_codes)
+	{
+		 this.panelist_flat_user_defined_multi_00__user_defined_codes.add(drools_panelist_flat_user_defined_multi_00__user_defined_codes);
+	}
+
+	public java.lang.Long getPanelist_flat_user_defined_multi_01__code_count()
+	{
+		return this.panelist_flat_user_defined_multi_01__code_count;
+	}
+
+	public void setPanelist_flat_user_defined_multi_01__code_count(java.lang.Long panelist_flat_user_defined_multi_01__code_count)
+	{
+		 this.panelist_flat_user_defined_multi_01__code_count = panelist_flat_user_defined_multi_01__code_count;
+	}
+
+	public java.util.List<java.math.BigDecimal> getPanelist_flat_user_defined_multi_01__user_defined_codes()
+	{
+		return this.panelist_flat_user_defined_multi_01__user_defined_codes;
+	}
+
+	public void setPanelist_flat_user_defined_multi_01__user_defined_codes(java.math.BigDecimal drools_panelist_flat_user_defined_multi_01__user_defined_codes)
+	{
+		 this.panelist_flat_user_defined_multi_01__user_defined_codes.add(drools_panelist_flat_user_defined_multi_01__user_defined_codes);
+	}
+
+	public java.lang.Long getPanelist_flat_user_defined_multi_02__code_count()
+	{
+		return this.panelist_flat_user_defined_multi_02__code_count;
+	}
+
+	public void setPanelist_flat_user_defined_multi_02__code_count(java.lang.Long panelist_flat_user_defined_multi_02__code_count)
+	{
+		 this.panelist_flat_user_defined_multi_02__code_count = panelist_flat_user_defined_multi_02__code_count;
+	}
+
+	public java.util.List<java.math.BigDecimal> getPanelist_flat_user_defined_multi_02__user_defined_codes()
+	{
+		return this.panelist_flat_user_defined_multi_02__user_defined_codes;
+	}
+
+	public void setPanelist_flat_user_defined_multi_02__user_defined_codes(java.math.BigDecimal drools_panelist_flat_user_defined_multi_02__user_defined_codes)
+	{
+		 this.panelist_flat_user_defined_multi_02__user_defined_codes.add(drools_panelist_flat_user_defined_multi_02__user_defined_codes);
+	}
+
+	public java.lang.Long getPanelist_flat_user_defined_multi_03__code_count()
+	{
+		return this.panelist_flat_user_defined_multi_03__code_count;
+	}
+
+	public void setPanelist_flat_user_defined_multi_03__code_count(java.lang.Long panelist_flat_user_defined_multi_03__code_count)
+	{
+		 this.panelist_flat_user_defined_multi_03__code_count = panelist_flat_user_defined_multi_03__code_count;
+	}
+
+	public java.util.List<java.math.BigDecimal> getPanelist_flat_user_defined_multi_03__user_defined_codes()
+	{
+		return this.panelist_flat_user_defined_multi_03__user_defined_codes;
+	}
+
+	public void setPanelist_flat_user_defined_multi_03__user_defined_codes(java.math.BigDecimal drools_panelist_flat_user_defined_multi_03__user_defined_codes)
+	{
+		 this.panelist_flat_user_defined_multi_03__user_defined_codes.add(drools_panelist_flat_user_defined_multi_03__user_defined_codes);
+	}
+
+	public java.lang.Long getPanelist_flat_user_defined_multi_04__code_count()
+	{
+		return this.panelist_flat_user_defined_multi_04__code_count;
+	}
+
+	public void setPanelist_flat_user_defined_multi_04__code_count(java.lang.Long panelist_flat_user_defined_multi_04__code_count)
+	{
+		 this.panelist_flat_user_defined_multi_04__code_count = panelist_flat_user_defined_multi_04__code_count;
+	}
+
+	public java.util.List<java.math.BigDecimal> getPanelist_flat_user_defined_multi_04__user_defined_codes()
+	{
+		return this.panelist_flat_user_defined_multi_04__user_defined_codes;
+	}
+
+	public void setPanelist_flat_user_defined_multi_04__user_defined_codes(java.math.BigDecimal drools_panelist_flat_user_defined_multi_04__user_defined_codes)
+	{
+		 this.panelist_flat_user_defined_multi_04__user_defined_codes.add(drools_panelist_flat_user_defined_multi_04__user_defined_codes);
+	}
+
+	public java.lang.Long getPanelist_flat_user_defined_multi_05__code_count()
+	{
+		return this.panelist_flat_user_defined_multi_05__code_count;
+	}
+
+	public void setPanelist_flat_user_defined_multi_05__code_count(java.lang.Long panelist_flat_user_defined_multi_05__code_count)
+	{
+		 this.panelist_flat_user_defined_multi_05__code_count = panelist_flat_user_defined_multi_05__code_count;
+	}
+
+	public java.util.List<java.math.BigDecimal> getPanelist_flat_user_defined_multi_05__user_defined_codes()
+	{
+		return this.panelist_flat_user_defined_multi_05__user_defined_codes;
+	}
+
+	public void setPanelist_flat_user_defined_multi_05__user_defined_codes(java.math.BigDecimal drools_panelist_flat_user_defined_multi_05__user_defined_codes)
+	{
+		 this.panelist_flat_user_defined_multi_05__user_defined_codes.add(drools_panelist_flat_user_defined_multi_05__user_defined_codes);
+	}
+
+	public java.lang.Long getPanelist_flat_user_defined_multi_06__code_count()
+	{
+		return this.panelist_flat_user_defined_multi_06__code_count;
+	}
+
+	public void setPanelist_flat_user_defined_multi_06__code_count(java.lang.Long panelist_flat_user_defined_multi_06__code_count)
+	{
+		 this.panelist_flat_user_defined_multi_06__code_count = panelist_flat_user_defined_multi_06__code_count;
+	}
+
+	public java.util.List<java.math.BigDecimal> getPanelist_flat_user_defined_multi_06__user_defined_codes()
+	{
+		return this.panelist_flat_user_defined_multi_06__user_defined_codes;
+	}
+
+	public void setPanelist_flat_user_defined_multi_06__user_defined_codes(java.math.BigDecimal drools_panelist_flat_user_defined_multi_06__user_defined_codes)
+	{
+		 this.panelist_flat_user_defined_multi_06__user_defined_codes.add(drools_panelist_flat_user_defined_multi_06__user_defined_codes);
+	}
+
+	public java.lang.Long getPanelist_flat_user_defined_multi_07__code_count()
+	{
+		return this.panelist_flat_user_defined_multi_07__code_count;
+	}
+
+	public void setPanelist_flat_user_defined_multi_07__code_count(java.lang.Long panelist_flat_user_defined_multi_07__code_count)
+	{
+		 this.panelist_flat_user_defined_multi_07__code_count = panelist_flat_user_defined_multi_07__code_count;
+	}
+
+	public java.util.List<java.math.BigDecimal> getPanelist_flat_user_defined_multi_07__user_defined_codes()
+	{
+		return this.panelist_flat_user_defined_multi_07__user_defined_codes;
+	}
+
+	public void setPanelist_flat_user_defined_multi_07__user_defined_codes(java.math.BigDecimal drools_panelist_flat_user_defined_multi_07__user_defined_codes)
+	{
+		 this.panelist_flat_user_defined_multi_07__user_defined_codes.add(drools_panelist_flat_user_defined_multi_07__user_defined_codes);
+	}
+
+	public java.lang.Long getPanelist_flat_user_defined_multi_08__code_count()
+	{
+		return this.panelist_flat_user_defined_multi_08__code_count;
+	}
+
+	public void setPanelist_flat_user_defined_multi_08__code_count(java.lang.Long panelist_flat_user_defined_multi_08__code_count)
+	{
+		 this.panelist_flat_user_defined_multi_08__code_count = panelist_flat_user_defined_multi_08__code_count;
+	}
+
+	public java.util.List<java.math.BigDecimal> getPanelist_flat_user_defined_multi_08__user_defined_codes()
+	{
+		return this.panelist_flat_user_defined_multi_08__user_defined_codes;
+	}
+
+	public void setPanelist_flat_user_defined_multi_08__user_defined_codes(java.math.BigDecimal drools_panelist_flat_user_defined_multi_08__user_defined_codes)
+	{
+		 this.panelist_flat_user_defined_multi_08__user_defined_codes.add(drools_panelist_flat_user_defined_multi_08__user_defined_codes);
+	}
+
+	public java.lang.Long getPanelist_flat_user_defined_multi_09__code_count()
+	{
+		return this.panelist_flat_user_defined_multi_09__code_count;
+	}
+
+	public void setPanelist_flat_user_defined_multi_09__code_count(java.lang.Long panelist_flat_user_defined_multi_09__code_count)
+	{
+		 this.panelist_flat_user_defined_multi_09__code_count = panelist_flat_user_defined_multi_09__code_count;
+	}
+
+	public java.util.List<java.math.BigDecimal> getPanelist_flat_user_defined_multi_09__user_defined_codes()
+	{
+		return this.panelist_flat_user_defined_multi_09__user_defined_codes;
+	}
+
+	public void setPanelist_flat_user_defined_multi_09__user_defined_codes(java.math.BigDecimal drools_panelist_flat_user_defined_multi_09__user_defined_codes)
+	{
+		 this.panelist_flat_user_defined_multi_09__user_defined_codes.add(drools_panelist_flat_user_defined_multi_09__user_defined_codes);
+	}
 
 	public java.math.BigDecimal decimalRound(java.math.BigDecimal num, java.lang.Integer num_places){
 	     
