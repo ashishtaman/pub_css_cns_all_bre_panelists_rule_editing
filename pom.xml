@@ -45,6 +45,11 @@
       <version>7.27.0.Final</version>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>com.data_object</groupId>
+      <artifactId>data_object</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
