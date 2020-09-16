@@ -48,7 +48,6 @@
           <header>Nikepermission : panelist_panelist_attr_61 !=</header>
           <constraintValueType>3</constraintValueType>
           <factField>panelist_panelist_attr_61</factField>
-          <fieldType>BigDecimal</fieldType>
           <operator>!=</operator>
           <parameters/>
         </condition-column52>
@@ -136,9 +135,8 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric>1303004754</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <valueString>1303004754</valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>
