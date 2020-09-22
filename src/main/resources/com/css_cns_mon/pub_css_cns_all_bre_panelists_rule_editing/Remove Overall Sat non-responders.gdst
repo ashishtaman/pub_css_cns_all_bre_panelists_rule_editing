@@ -100,6 +100,9 @@
       <org.kie.soup.project.datamodel.imports.Import>
         <type>com.data_object.data_object.pub_cns_combined_flattened_bre</type>
       </org.kie.soup.project.datamodel.imports.Import>
+      <org.kie.soup.project.datamodel.imports.Import>
+        <type>java.math.BigDecimal</type>
+      </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
   <packageName>com.css_cns_mon.pub_css_cns_all_bre_panelists_rule_editing</packageName>
